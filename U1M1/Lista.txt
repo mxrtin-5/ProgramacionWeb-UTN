@@ -2,4 +2,3 @@ Naranjas
 Bananas
 Palta
 manzana 
-pera
