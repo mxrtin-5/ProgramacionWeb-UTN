@@ -1,0 +1,94 @@
+h1{
+    background-color: blueviolet;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+h2{
+    background-color: pink;
+    text-shadow: 0cm;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 4px;
+    border: inset grey;
+    position: relative;
+    bottom: 300px;
+}
+
+img{
+    display: inline-block;
+    position: relative;
+    left: 1200px;
+}
+
+div{
+    display:inline-block;
+    border: groove red;
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+}
+
+p{
+    font-family: monospace;
+    margin: 10px;
+    position: relative;
+    bottom: 300px;
+}   
+
+ul{
+    font-family: monospace;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin: 15px;
+}
+
+.peliculas{
+    padding: 5px;
+}
+
+.series{
+    padding: 5px;
+}
+
+.Favorita{
+    color: blue;
+}
+
+.edad{
+    position: relative;
+    right: 1020px;
+    bottom: 300px;
+}
+.edad-p{
+    position: relative;
+    bottom: 350px;
+}
+.peliculas-lista{
+    position: relative;
+    bottom: 320px;
+}
+.series-lista{
+    position: relative;
+    bottom: 300px;
+}
+.cosas-sobre-mi{
+    position: relative;
+    bottom: 300px;
+}
