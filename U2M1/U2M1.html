@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de fondo en js</title>
+    <link rel="stylesheet" href="U2M1.css">
+</head>
+<body>
+    <div onclick="red" id="red" class="cuadrado1"></div>
+    <div onclick="blue" id="blue" class="cuadrado2"></div>
+    <div onclick="pink" id="pink" class="cuadrado3"></div>
+    <script>
+        const cuadrado1 = document.getElementById('red');
+        const cuadrado2 = document.getElementById('blue');
+        const cuadrado3 = document.getElementById('pink');
+
+        cuadrado1.addEventListener('click', function(){
+            cuadrado1.style.backgroundColor='red'
+        })
+
+        cuadrado2.addEventListener('click', function(){
+            cuadrado2.style.backgroundColor='blue'
+        })
+
+        cuadrado3.addEventListener('click', function(){
+            cuadrado3.style.backgroundColor='pink'
+        })
+    </script>
+</body>
+</html>
