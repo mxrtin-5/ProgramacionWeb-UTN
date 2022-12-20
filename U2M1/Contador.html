@@ -7,21 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="contenedor">
-        <textarea placeholder="Ingrese Texto" name="" id="txt" cols="30" rows="10"></textarea>
+    <textarea name="" id="texto" cols="30" rows="10"></textarea>
+    <div>caracteres:
+        <span id="contar"></span>
     </div>
     <script>
-        function getID(id){
-            return document.getElementById(id).value;
-        }
-        function innerHTML(id, resultado){
-        return document.getElementById(id).innerHTML=resultado;
-        }
-        function contador(){
-            setInterval(function){
-                var c = getID("txt")
-            }
-        }
+        let texto = document.getElementById('texto');
+        let contar = document.getElementById('contar')
+
+        texto.addEventListener('keyup', function(){
+            contar.innerText = texto.value.length;
+        })
     </script>
 </body>
 </html>

@@ -8,16 +8,32 @@
     <link rel="stylesheet" href="U2M1.css">
 </head>
 <body>
-    <div onclick="red" id="red" class="cuadrado1"></div>
-    <div onclick="blue" id="blue" class="cuadrado2"></div>
-    <div onclick="pink" id="pink" class="cuadrado3"></div>
+    <div onclick="cambiarFondo ('red')" class="cuadrado1"></div>
+    <div onclick="cambiarFondo ('blue')" class="cuadrado2"></div>
+    <div onclick="cambiarFondo ('pink')" class="cuadrado3"></div>
+    <style>
+        .contenedor{
+            display: flex;
+        }
+        
+        .cuadrado{
+            height: 100px;
+            width: 100px;
+        }
+        .red{
+            background-color: red;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .pink{
+            background-color: pink;
+        }
+    </style>
     <script>
-        const cuadrado1 = document.getElementById('red');
-        cuadrado1.style.backgroundColor='red'
-        const cuadrado2 = document.getElementById('blue');
-        cuadrado2.style.backgroundColor='blue'
-        const cuadrado3 = document.getElementById('pink');
-        cuadrado3.style.backgroundColor='pink'
+        function cambiarFondo(color){
+            document.querySelector('body').style.background = color;
+        }
     </script>
 </body>
 </html>
