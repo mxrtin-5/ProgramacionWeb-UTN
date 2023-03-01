@@ -16,8 +16,8 @@ router.post('/', async (req, res, next) => {
   var mensaje = req.body.mensaje
 
   var obj = {
-    to: 'martineluney023@gmail.com'
-  subject= 'Contacto desde la web'
+    to: 'martineluney023@gmail.com',
+  subject: 'Contacto desde la web' ,
   html: nombre + "" + apellido + "se contacto con nosotros a traves de la web y su email es" + email + ". <br> A demas, hizo el siguiente comentario"
   }
 
